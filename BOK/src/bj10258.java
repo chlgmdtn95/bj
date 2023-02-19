@@ -37,7 +37,7 @@ public class bj10258 {
 		arr[1] = 3;
 		for (int i = 2; i < 31; i++)
 			arr[i] = arr[i - 1] * 2 + 1;
-
+		
 		for (int i = 0; i < N; i++) {
 			sb.append(getAns(br.readLine())+"\n");
 		}
